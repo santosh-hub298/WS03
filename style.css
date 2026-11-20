@@ -1,0 +1,155 @@
+h1 {
+    color: blue;
+}
+
+p {
+    color: darkgreen;
+    font-size: 18px;
+}
+h2 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+}
+body {
+    margin: 30px;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightpink;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8b9187;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+apse: collapse;
+    background-color: white;
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: lightblue;
+}
+
+/* Contact form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* About Me box */
+.content-box {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 8px;
+}
+  input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+.transition-button:hover {
+        background-color:  #333;
+        padding: 10px  20px;
+        cursor:  pointer;
+        transition: background-color  0.3s  ease;
+    }
+
+    .transition-button:hover {
+        background-color: #45a049;
+        transition: background-color : lightblue 0.3s ease;
+    }
+    .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(43, 199, 15);
+        position: relative;
+        animation: move 2s infinite alternate;
+    }
+
+    @keyframes move {
+        from{
+            left: 0px;
+        }
+        to{
+            left: 100px;    
+        }
+    }
+    .pseudo-list li:nth-child(odd) {
+        background-color: rgb(116, 115, 115);
+    }  
+
+    .pseudo-list li:nth-child(even) {
+        background-color: rgb(116, 115, 115);
+    }
+    .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+    }
+    .filter-image:hover {
+        filter: grayscale(0%);
+    }
+    .quote {
+            position: relative;
+            padding-left: 20px;
+            font-style: italic;
+        }
+        .quote::before {
+            content: "\201C"; /* The more you take the less you have. */
+            Font-size: 40px;
+            position: absolute;
+            left: 0px;
+            top: 0;
+            color: lightgrey;
+        }
